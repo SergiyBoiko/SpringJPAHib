@@ -12,7 +12,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import java.util.Properties;
 
 @Configuration
-@ImportResource(locations = "jdbc.properties")
+@ImportResource(locations = "application.properties")
 public class HibernateConfig {
 
     @Bean
