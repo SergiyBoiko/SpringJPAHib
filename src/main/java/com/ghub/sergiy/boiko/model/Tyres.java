@@ -1,4 +1,4 @@
-package com.ghub.sergiy.boiko.entity;
+package com.ghub.sergiy.boiko.model;
 
 import com.ghub.sergiy.boiko.carpart.Wheel;
 

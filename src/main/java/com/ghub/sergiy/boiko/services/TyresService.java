@@ -1,7 +1,7 @@
 package com.ghub.sergiy.boiko.services;
 
-import com.ghub.sergiy.boiko.entity.Tyres;
-import com.ghub.sergiy.boiko.repositorys.TyresRepository;
+import com.ghub.sergiy.boiko.model.Tyres;
+import com.ghub.sergiy.boiko.repository.TyresRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,7 @@
 package com.ghub.sergiy.boiko.services;
 
-import com.ghub.sergiy.boiko.entity.Car;
-import com.ghub.sergiy.boiko.repositorys.CarRepository;
-import com.ghub.sergiy.boiko.repositorys.TyresRepository;
+import com.ghub.sergiy.boiko.model.Car;
+import com.ghub.sergiy.boiko.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

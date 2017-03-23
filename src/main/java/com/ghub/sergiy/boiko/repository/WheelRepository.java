@@ -1,7 +1,6 @@
-package com.ghub.sergiy.boiko.repositorys;
+package com.ghub.sergiy.boiko.repository;
 
 import com.ghub.sergiy.boiko.carpart.Wheel;
-import com.ghub.sergiy.boiko.entity.Tyres;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,8 +28,8 @@ public class WheelRepository {
         return session.createCriteria(Wheel.class).list();
     }
 
-    public void save(Wheel tyres){
+    public void save(Wheel wheel){
         Session session = sessionFactory.openSession();
-        session.save(tyres);
+        session.save(wheel);
     }
 }

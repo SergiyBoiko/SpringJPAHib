@@ -1,4 +1,4 @@
-package com.ghub.sergiy.boiko.beans;
+package com.ghub.sergiy.boiko.configuration;
 
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.hibernate.SessionFactory;

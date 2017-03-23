@@ -1,6 +1,6 @@
-package com.ghub.sergiy.boiko.repositorys;
+package com.ghub.sergiy.boiko.repository;
 
-import com.ghub.sergiy.boiko.entity.Car;
+import com.ghub.sergiy.boiko.model.Car;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +18,7 @@ public class CarRepository {
         this.sessionFactory = sessionFactory;
     }
 
+    @SuppressWarnings("unchecked")
     public Car findById(int id){
         Session session = sessionFactory.getCurrentSession();
         return session.get(Car.class, id);

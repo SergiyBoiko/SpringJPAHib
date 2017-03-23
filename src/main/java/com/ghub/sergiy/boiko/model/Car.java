@@ -1,12 +1,9 @@
-package com.ghub.sergiy.boiko.entity;
+package com.ghub.sergiy.boiko.model;
 
 import com.ghub.sergiy.boiko.carpart.Engine;
 import com.ghub.sergiy.boiko.carpart.Wheel;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity

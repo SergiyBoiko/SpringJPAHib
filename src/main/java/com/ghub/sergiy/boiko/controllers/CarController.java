@@ -2,8 +2,8 @@ package com.ghub.sergiy.boiko.controllers;
 
 import com.ghub.sergiy.boiko.carpart.Engine;
 import com.ghub.sergiy.boiko.carpart.Wheel;
-import com.ghub.sergiy.boiko.entity.Car;
-import com.ghub.sergiy.boiko.entity.Tyres;
+import com.ghub.sergiy.boiko.model.Car;
+import com.ghub.sergiy.boiko.model.Tyres;
 import com.ghub.sergiy.boiko.services.CarService;
 import com.ghub.sergiy.boiko.services.TyresService;
 import org.springframework.beans.factory.annotation.Autowired;
